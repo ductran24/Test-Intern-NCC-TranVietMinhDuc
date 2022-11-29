@@ -1,0 +1,72 @@
+@media only screen and (max-width: 1000px) {
+  .section-left{
+    display: none;
+  }
+  
+  .icon{
+    display: block!important;
+    position: absolute;
+    top: 46px;
+    left: 42px;
+  }
+
+  .section-right{
+    width: 100%;
+  }
+
+  .content-right h3 {
+    margin-top: 10px;
+  }
+
+  .content-right p {
+    margin: 14px auto auto;
+    width: 64%;
+  }
+
+  .item-right {
+    position: absolute;
+    display: block;
+    top: 400px;
+  }
+
+    .item {
+      width: 100%;
+      margin: 20px!important;
+    }
+    .footer {
+      position: absolute;
+      top: 1078px;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+  .icon {
+      display: block !important;
+      position: relative!important;
+  }
+
+    .logo {
+      width: 36%;
+      position: absolute;
+      top: 20px;
+      background-repeat: no-repeat;
+    }
+
+    .content-right {
+      position: absolute;
+      top: 172px;
+      background-color: #EFEFEF;
+      width: 85%;
+      max-height: 200px;
+      overflow: hidden;
+    }
+    .item-content{
+      max-height: 100px;
+      overflow: hidden;
+    }
+    .item-content img {
+      width: 36%;
+      height: 33%;
+    }
+}
